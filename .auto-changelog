@@ -1,6 +1,6 @@
 {
   "output": "CHANGELOG.md",
   "template": "keepachangelog",
-  "unreleased": false,
+  "unreleased": true,
   "commitLimit": true
 }
