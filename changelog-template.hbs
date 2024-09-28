@@ -1,0 +1,16 @@
+### Changelog
+Meu modelo de changelog personalizado. Não se preocupe com o recuo aqui; ele é automaticamente removido da saída.
+
+{{#each releases}}
+  Cada lançamento tem um {{title}} e uma {{href}} você pode usar para vincular ao diff de commit.
+  Também tem um {{isoDate}} and a {{niceDate}} you might want to use.
+  {{#each merges}}
+    - A merge has a {{message}}, an {{id}} e uma {{href}} ao PR.
+  {{/each}}
+  {{#each fixes}}
+    - Cada correção tem um {{commit}} com um {{commit.subject}}, um {{id}} e uma {{href}} para o problema corrigido.
+  {{/each}}
+  {{#each commits}}
+    - Os commits têm um {{shorthash}}, um {{subject}} e uma {{href}}, {{author}} entre outras coisas.
+  {{/each}}
+{{/each}}
