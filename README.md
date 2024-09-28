@@ -1,3 +1,3 @@
 # lab-auto-changelog
 
-**Changelog6**
+**Changelog7**
