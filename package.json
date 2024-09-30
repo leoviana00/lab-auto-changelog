@@ -6,8 +6,5 @@
   },
   "scripts": {
     "version": "auto-changelog -p && git add CHANGELOG.md"
-  },
-  "dependencies": {
-    "punycode": "^2.3.1"
   }
 }
