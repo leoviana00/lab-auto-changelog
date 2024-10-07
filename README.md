@@ -1,3 +1,5 @@
-# lab-auto-changelog
+## lab-auto-changelog
 
-**Changelog12**
+Testando o Autochangelog
+
+- [Autochangelog](https://github.com/CookPete/auto-changelog)
